@@ -17,7 +17,7 @@
 - [x] Giai đoạn 1: Thiết lập Database & Kết nối Supabase (đã xong)
 - [x] Giai đoạn 2: Giao diện Đặt lịch cho Khách hàng (Frontend) (đã xong)
 - [x] Giai đoạn 3: API Lưu lịch tạm thời & Bắn thông báo Telegram
-- [ ] Giai đoạn 4: Webhook xử lý Accept / Reject từ Telegram
+- [x] Giai đoạn 4: Webhook xử lý Accept / Reject từ Telegram
 - [ ] Giai đoạn 5: Trang Dashboard quản lý lịch (Realtime)
 
 # 5. QUY TẮC CODE CHO GEMINI
