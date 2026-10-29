@@ -12,32 +12,38 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-/* Chữ trong ô nhập luôn màu đen, nền trắng */
+
+/* Ô nhập và nút luôn chữ đen */
+input,
+select,
+textarea,
+button {
+  color: #000000;
+}
+
 input,
 select,
 textarea {
-  color: #000000;
   background-color: #ffffff;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #9ca3af; /* xám, để phân biệt với chữ đã nhập */
+  color: #9ca3af;
 }
 
 select option {
   color: #000000;
   background-color: #ffffff;
+}
+
+/* Nút nền pink / nền trắng-xám dùng Tailwind text-white thì giữ nguyên */
+button.text-white,
+.text-white {
+  color: #ffffff;
 }
